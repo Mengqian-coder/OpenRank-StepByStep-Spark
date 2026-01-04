@@ -85,12 +85,24 @@ graph TB
 git clone https://github.com/yourusername/opensource-project-predictor.git
 cd opensource-project-predictor
 
-# 2. 安装依赖
-pip install -r requirements.txt
+# 2. 安装库文件
+import requests
+import pandas as pd
+import time
+from datetime import datetime, timedelta
+import json
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+import warnings
+import sys
+import yaml
+import os
+import glob
+import logging
 
-# 3. 配置环境变量
-cp .env.example .env
-# 编辑.env文件，配置GitHub API Token等
+# 3. 配置GitHub API Token
+更改get_newborn_basic.py 和more_data.py文件中GITHUB_TOKEN
 
 # 4. 运行数据采集与评估
 python run_metrics_calculation.py --input data/sample_repositories.csv
@@ -103,16 +115,16 @@ python run_metrics_calculation.py --input data/sample_repositories.csv
 # 按照docs/maxkb_setup.md导入知识库并配置智能体
 ```
 
-### 一键运行脚本
-```bash
-# 完整系统启动
-./scripts/setup_all.sh
+### 运行脚本
+```
+# 生成并预处理测试数据
+python get_newborn_basic_data.py
+python more_data.py
+python init_assess.py
+python init_process.py
 
-# 仅运行评估流水线
-./scripts/run_pipeline.sh
-
-# 更新知识库
-./scripts/update_knowledge_base.sh
+# 运行指标计算测试
+python run_metrics_calculation.py
 ```
 
 ## 📁 项目结构
@@ -120,25 +132,30 @@ python run_metrics_calculation.py --input data/sample_repositories.csv
 ```
 Spark-project-predictor/
 ├── src/
+|   ├── data_pipeline/               # 数据管道模块
+|       ├── get_newborn_basic_data.py  # 新生代项目基础数据获取
+|       ├── init_assess.py           # 初始评估模块
+|       ├── init_process.py          # 初始化处理模块
+|       └── more_data.py             # 扩展数据获取模块
+|  
 │   ├── metrics/                    # 五维度计算器
-│   │   ├── community_vitality.py   # 社区活力计算器
-│   │   ├── code_health.py          # 代码健康计算器
-│   │   ├── maintenance_efficiency.py # 维护效率计算器
-│   │   ├── topic_innovation.py     # 主题创新计算器
-│   │   └── external_appeal.py      # 外部吸引力计算器
-│   └── utils/                      # 工具函数
+│       ├── community_vitality.py   # 社区活力计算器
+│       ├── code_health.py          # 代码健康计算器
+│       ├── maintenance_efficiency.py # 维护效率计算器
+│       ├── topic_innovation.py     # 主题创新计算器
+│       |── external_appeal.py      # 外部吸引力计算器
+|       └── base_calculator.py      
+│   
 ├── config/
 │   └── metrics_config.yaml         # 评估配置
 ├── data/
 │   ├── raw/                        # 原始数据
-│   ├── processed/                  # 处理后的数据
-│   └── cache/                      # 缓存数据
-├── scripts/                        # 运行脚本
+│   └── processed/                  # 处理后的数据
+│   
 ├── docs/                           # 文档
 ├── outputs/
-│   ├── reports/                    # 分析报告
-│   └── visualizations/             # 可视化配置
-├── requirements.txt                # Python依赖
+│   └── reports/                    # 分析报告
+│   
 ├── run_metrics_calculation.py      # 主入口文件
 └── README.md                       # 项目说明
 ```

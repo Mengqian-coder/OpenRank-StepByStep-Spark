@@ -118,7 +118,7 @@ python run_metrics_calculation.py --input data/sample_repositories.csv
 ## 📁 项目结构
 
 ```
-opensource-project-predictor/
+Spark-project-predictor/
 ├── src/
 │   ├── metrics/                    # 五维度计算器
 │   │   ├── community_vitality.py   # 社区活力计算器

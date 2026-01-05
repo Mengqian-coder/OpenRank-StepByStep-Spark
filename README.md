@@ -150,15 +150,15 @@ Spark-project-predictor/
 ## 📋 使用示例
 
 ### 示例1：批量评估开源项目
-<img width="800" height="222" alt="屏幕截图 2026-01-03 131654" src="https://github.com/user-attachments/assets/29b58029-b566-4221-b9fb-a93f0a29e5b0" />
-<img width="800" height="396" alt="屏幕截图 2026-01-03 131712" src="https://github.com/user-attachments/assets/7de36d5a-4056-4435-b5a0-b67ecc61fea1" />
-<img width="830" height="552" alt="屏幕截图 2026-01-03 131722" src="https://github.com/user-attachments/assets/d7865384-caf7-4949-bd97-89bd616c5221" />
-<img width="863" height="485" alt="屏幕截图 2026-01-03 131732" src="https://github.com/user-attachments/assets/20a8006d-5465-4f43-94dc-a5dbbc53fc36" />
-<img width="908" height="364" alt="屏幕截图 2026-01-03 131758" src="https://github.com/user-attachments/assets/065c4598-f13e-401b-99e3-1693317ddacb" />
-<img width="966" height="407" alt="屏幕截图 2026-01-03 131805" src="https://github.com/user-attachments/assets/5da7fe94-eb8d-42b9-9be6-c876f4826387" />
-<img width="1043" height="385" alt="屏幕截图 2026-01-03 131820" src="https://github.com/user-attachments/assets/ab90a661-b307-48fb-b28d-962e3c69ae75" />
-<img width="651" height="790" alt="屏幕截图 2026-01-03 131832" src="https://github.com/user-attachments/assets/d40b2cbb-ba17-4b97-957b-bf13ddb9a744" />
-<img width="849" height="498" alt="屏幕截图 2026-01-03 131844" src="https://github.com/user-attachments/assets/34742f8a-0ec0-4ff7-b7a3-606fa4c0b47f" />
+<img width="900" height="222" alt="屏幕截图 2026-01-03 131654" src="https://github.com/user-attachments/assets/29b58029-b566-4221-b9fb-a93f0a29e5b0" />
+<img width="900" height="396" alt="屏幕截图 2026-01-03 131712" src="https://github.com/user-attachments/assets/7de36d5a-4056-4435-b5a0-b67ecc61fea1" />
+<img width="900" height="552" alt="屏幕截图 2026-01-03 131722" src="https://github.com/user-attachments/assets/d7865384-caf7-4949-bd97-89bd616c5221" />
+<img width="900" height="485" alt="屏幕截图 2026-01-03 131732" src="https://github.com/user-attachments/assets/20a8006d-5465-4f43-94dc-a5dbbc53fc36" />
+<img width="900" height="364" alt="屏幕截图 2026-01-03 131758" src="https://github.com/user-attachments/assets/065c4598-f13e-401b-99e3-1693317ddacb" />
+<img width="900" height="407" alt="屏幕截图 2026-01-03 131805" src="https://github.com/user-attachments/assets/5da7fe94-eb8d-42b9-9be6-c876f4826387" />
+<img width="900" height="385" alt="屏幕截图 2026-01-03 131820" src="https://github.com/user-attachments/assets/ab90a661-b307-48fb-b28d-962e3c69ae75" />
+<img width="900" height="790" alt="屏幕截图 2026-01-03 131832" src="https://github.com/user-attachments/assets/d40b2cbb-ba17-4b97-957b-bf13ddb9a744" />
+<img width="900" height="498" alt="屏幕截图 2026-01-03 131844" src="https://github.com/user-attachments/assets/34742f8a-0ec0-4ff7-b7a3-606fa4c0b47f" />
 
 ### 示例2：AI智能顾问咨询
 ```

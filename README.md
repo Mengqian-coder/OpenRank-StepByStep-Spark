@@ -150,8 +150,8 @@ Spark-project-predictor/
 ## 📋 使用示例
 
 ### 示例1：批量评估开源项目
-<img width="709" height="222" alt="屏幕截图 2026-01-03 131654" src="https://github.com/user-attachments/assets/29b58029-b566-4221-b9fb-a93f0a29e5b0" />
-<img width="849" height="396" alt="屏幕截图 2026-01-03 131712" src="https://github.com/user-attachments/assets/7de36d5a-4056-4435-b5a0-b67ecc61fea1" />
+<img width="800" height="222" alt="屏幕截图 2026-01-03 131654" src="https://github.com/user-attachments/assets/29b58029-b566-4221-b9fb-a93f0a29e5b0" />
+<img width="800" height="396" alt="屏幕截图 2026-01-03 131712" src="https://github.com/user-attachments/assets/7de36d5a-4056-4435-b5a0-b67ecc61fea1" />
 <img width="830" height="552" alt="屏幕截图 2026-01-03 131722" src="https://github.com/user-attachments/assets/d7865384-caf7-4949-bd97-89bd616c5221" />
 <img width="863" height="485" alt="屏幕截图 2026-01-03 131732" src="https://github.com/user-attachments/assets/20a8006d-5465-4f43-94dc-a5dbbc53fc36" />
 <img width="908" height="364" alt="屏幕截图 2026-01-03 131758" src="https://github.com/user-attachments/assets/065c4598-f13e-401b-99e3-1693317ddacb" />

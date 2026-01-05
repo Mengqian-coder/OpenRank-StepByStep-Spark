@@ -1,0 +1,61 @@
+# config/metrics_config.yaml
+weights:
+  community_vitality: 0.25
+  code_health: 0.20
+  maintenance_efficiency: 0.15
+  topic_innovation: 0.20
+  external_appeal: 0.20
+
+normalization:
+  method: minmax
+  clip_outliers: true
+  outlier_threshold: 3.0
+
+logging:
+  level: INFO
+  file: logs/metrics_calculation.log
+
+output:
+  save_intermediate: true
+  generate_report: true
+  report_format: both
+
+# 新增主题创新度配置
+topic_innovation:
+  use_bertopic: false  # 设置为false避免下载模型
+  fallback_to_simple: true
+
+  tech_adoption_curve:
+    emerging:
+      - WebAssembly
+      - Rust
+      - Wasm
+      - Edge Computing
+      - Blockchain
+      - Quantum Computing
+      - Federated Learning
+      - Neuromorphic Computing
+    growth:
+      - Kubernetes
+      - TensorFlow
+      - PyTorch
+      - React Native
+      - GraphQL
+      - Serverless
+      - Microservices
+    mature:
+      - JavaScript
+      - Python
+      - Java
+      - MySQL
+      - PostgreSQL
+      - React
+      - Vue.js
+    declining:
+      - Flash
+      - jQuery UI
+      - Backbone.js
+      - AngularJS
+      - CoffeeScript
+      - Perl
+      - VB.NET

@@ -144,8 +144,7 @@ Spark-project-predictor/
 ├── outputs/
 │   └── reports/                    # 分析报告
 │   
-├── run_metrics_calculation.py      # 主入口文件
-└── README.md                       # 项目说明
+└── run_metrics_calculation.py      # 主入口文件
 ```
 
 ## 📋 使用示例

@@ -7,6 +7,8 @@ Spark-新生代优质项目早期预测系统
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
 ![Stars](https://img.shields.io/github/stars/yourusername/opensource-project-predictor?style=social)
 
+视频链接：https://b23.tv/dAWX7ff
+
 ## 🚀 项目简介
 
 **开源生态系统中新生代优质项目的早期预测与智能顾问系统**是一个集数据采集、多维度评估、可视化分析与AI智能建议于一体的完整解决方案。系统能够对创建6-18个月的开源项目进行精准评估，识别具有潜力的"明日之星"，并提供数据驱动的成长建议。
